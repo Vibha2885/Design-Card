@@ -4,10 +4,10 @@ body{
 
 .box{
     background-color: white;
-    height: 700px;
-    width: 95%;
+    height: 500px;
+    width: 25%;
     margin-right: 25px;
-    margin-left: 15px;
+    margin-left: 25px;
     padding: 10px;
     margin-top: 20px;
         margin-bottom: 15px;
@@ -15,22 +15,22 @@ body{
 
 }
 .box img{
-    height: 400px;
+    height: 250px;
     width: 97%;
-    margin-left: 15px;
-    margin-top: 10px;
-        margin-bottom: 10px;
-    margin-right: 25px;
+    margin-right: 30px;
     border-radius: 15px; 
+padding: 5px;
 }
 
 .box span{
     border: 2px solid lightgray;
     border-radius: 7px;
-    
-    margin-left: 15px;
+    padding: 5px;
+    margin-left: 5px;
+    margin-top: 7px;
+
 }
-.box h1{
+.box h2{
     margin-left: 15px;
 }
 .box p{
@@ -41,13 +41,17 @@ body{
         overflow: hidden;
 
 }
-.box h3{
-    color: blue;
+.box button{
+    color: rgb(78, 78, 226);
         border: 2px solid white;
     border-radius: 7px;
-    background-color: skyblue;
+    background-color: rgb(179, 217, 232);
     display: inline-block;
     text-align: center;
-    position: relative;
-    left: 350px;
+    padding:5px;
+    margin-left: 120px;
+}
+.box button:hover{
+cursor:pointer;
+background-color: white;
 }
